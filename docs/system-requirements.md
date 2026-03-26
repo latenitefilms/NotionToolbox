@@ -1,5 +1,4 @@
 # System Requirements
 
-ScriptStar requires **Final Cut Pro 10.6.5** or later.
-
-You can find Final Cut Pro's system requirements [here](https://support.apple.com/en-us/111903).
+- macOS 13.0 or later
+- Notion API Integration Token for Importer functionality
