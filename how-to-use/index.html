@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827820197506">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.827821696059">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.4.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>How To Use</title>
     <meta name="title" content="How To Use">
-    <meta name="description" content="Instructions...">
+    <meta name="description" content="Open the app and select the Merger tab">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://NotionToolbox.fcp.cafe/how-to-use/">
@@ -21,7 +21,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://NotionToolbox.fcp.cafe/how-to-use/">
     <meta property="og:title" content="How To Use">
-    <meta property="og:description" content="Instructions...">
+    <meta property="og:description" content="Open the app and select the Merger tab">
     <meta property="og:site_name" content="Notion Toolbox">
     <meta property="og:locale" content="en_US">
 
@@ -29,16 +29,16 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://NotionToolbox.fcp.cafe/how-to-use/">
     <meta name="twitter:title" content="How To Use">
-    <meta name="twitter:description" content="Instructions...">
+    <meta name="twitter:description" content="Open the app and select the Merger tab">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.4.0.827820197506" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.4.0.827821696059" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.827820197506" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.4.0.827821696059" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.827820197506" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.4.0.827821696059" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -244,7 +244,50 @@
 
                 <!-- Page content  -->
 <h1 id="how-to-use">How To Use</h1>
-<p>Instructions...</p>
+<h2 id="usage">Usage</h2>
+<h3 id="merger">Merger</h3>
+<ol>
+<li>Open the app and select the <strong>Merger</strong> tab</li>
+<li>Drop or select your Local Spreadsheet CSV file</li>
+<li>Drop or select your Notion Database CSV export</li>
+<li>Click <strong>Merge CSVs</strong> to configure column mapping</li>
+<li>Adjust mappings as needed and confirm</li>
+<li>Save the merged CSV file</li>
+</ol>
+<hr>
+<h3 id="importer">Importer</h3>
+<ol>
+<li>Select the <strong>Importer</strong> tab</li>
+<li>Click <strong>Settings</strong> to configure your Notion connection:
+<ul>
+<li>Enter your Notion Integration Token</li>
+<li>Enter your Database ID</li>
+<li>Test the connection</li>
+</ul>
+</li>
+<li>Either:
+<ul>
+<li>Use <strong>Use Merged Data</strong> button (if you have merged data from the Merger tab)</li>
+<li>Or drop/select a CSV file to import</li>
+</ul>
+</li>
+<li>Configure column mappings between CSV columns and Notion properties</li>
+<li>Click <strong>Update Notion</strong> to import the data</li>
+</ol>
+<hr>
+<h2 id="setting-up-notion-integration">Setting up Notion Integration</h2>
+<ol>
+<li>Go to <a href="https://www.notion.so/my-integrations" class="outbound" target="_blank"><span>Notion Integrations</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a></li>
+<li>Click <strong>New integration</strong></li>
+<li>Give it a name and select the workspace</li>
+<li>Copy the <strong>Internal Integration Token</strong></li>
+<li>Share your database with the integration:
+<ul>
+<li>Open your Notion database</li>
+<li>Click <strong>...</strong> → <strong>Add connections</strong> → Select your integration</li>
+</ul>
+</li>
+</ol>
 
                 
                 <!-- Required only on API pages -->
