@@ -1,5 +1,5 @@
-# <<APPLICATION_FULL_NAME>>
+# Notion Toolbox
 
-**<<APPLICATION_FULL_NAME>>** does something.
+**Notion Toolbox** does something.
 
 > [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](/buy/)

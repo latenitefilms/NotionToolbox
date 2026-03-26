@@ -1,3 +1,3 @@
-# <<APPLICATION_FULL_NAME>>
+# Notion Toolbox
 
 Application description coming soon!
