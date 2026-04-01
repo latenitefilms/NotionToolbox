@@ -10,6 +10,18 @@ You can find information about Educational Pricing [here](/educational/).
 
 ---
 
+## TestFlight
+
+When we're working on new features or bug fixes, we'll share them customers on TestFlight for early feedback.
+
+You can find the TestFlight links on the [FCP Cafe Discord](https://ltnt.tv/discord).
+
+TestFlight builds are valid for **90 days** from the date they are uploaded to App Store Connect.
+
+After 90 days, the build expires and becomes unavailable for testing.
+
+---
+
 ## Unlock CommandPost
 
 CommandPost is **The Swiss Army Knife for Post Production Professionals**.
@@ -25,3 +37,11 @@ After **9 years of free updates**, to ensure that CommandPost continues to be de
 You can use **Notion Toolbox** to "unlock" CommandPost!
 
 ![](/static/commandpost.png)
+
+---
+
+## Tools for Professionals
+
+You can learn more about LateNite's amazing range of apps on [FCP Cafe](https://fcp.cafe/latenite/).
+
+![](/static/lateniteapps.png)
